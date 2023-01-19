@@ -79,7 +79,7 @@ end
 #5. Trie la liste de handle par ordre alphabétique.
 def _5_count_one_cap
     $source.sort
-    puts "----------DupluglanOplupiti--------------"
+    puts "Voilà la liste des journaliste dans l'ordre"
 		puts "--------mais trois lignes avant----------"
 		puts "--------sinon on y voit rien :)----------"
 		puts "-----------------------------------------"
@@ -89,7 +89,7 @@ end
 #6. Trie la liste de handle par taille des handle (les plus petits en premiers, les plus grands après)
 def _6_little_to_bigone
     $source.sort_by(&:length)
-		puts "----------DuplupitiOpluGland-------------"
+		puts "----------DuplupitiOpluGland-----------"
 		puts "--------mais trois lignes avant----------"
 		puts "--------sinon on y voit rien :)----------"
 		puts "-----------------------------------------"
